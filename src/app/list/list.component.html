@@ -1,0 +1,14 @@
+<nav class="navbar navbar-dark bg-dark">
+    <input class="searchbox" [(ngModel)]="filterBy">
+</nav>
+<div class="card" *ngFor="let contact of filteredContactList" >
+    <div class="card-body contact-details" (click)="onContactClick(contact.contactId)">
+        <div class="row" >
+            <img [src]="contact.imageUrl" alt="" class="contact-photo">
+            <div class="contact-info">
+                <h2>{{contact.contactName}}</h2>
+                <h4>{{contact.contactStatus}}</h4>
+            </div>
+        </div>
+    </div>
+</div>

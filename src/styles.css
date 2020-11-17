@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.brand-icon {
+    height: 30px;
+}
+
+.nav-item:hover{
+    background-color: transparent;
+    color: black !important;
+}
+
+.contact-photo{
+    border-radius: 50%;
+    width: 80px;
+}
+
+.footer{
+    height: 100px;
+}

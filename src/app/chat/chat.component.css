@@ -1,0 +1,67 @@
+.back{
+    background-color: transparent;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+    height: 35px;
+    margin: auto;
+}
+
+.back:hover{
+    background-color: white;
+    color: #343a40;
+}
+
+.contact-photo{
+    margin-left:20px;
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.row{
+    margin-left: 20px;
+}
+
+.contact-name{  
+    margin: auto;
+    font-size: 2em;
+    color: white;
+    margin-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.received{
+    background-color: lightgrey;
+    font-size: 1.4em;
+    border-radius: 5px;
+    max-width: 50%;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+.sent{
+    background-color: blueviolet;
+    font-size: 1.4em;
+    border-radius: 5px;
+    max-width: 50%;
+    color: white;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin-left: 50%;
+}
+
+.sender-box{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background-color: #343a40;
+}
+
+.sender-message-box{
+    width: 95%;
+    
+}

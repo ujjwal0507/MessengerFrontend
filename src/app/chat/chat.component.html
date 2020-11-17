@@ -1,0 +1,16 @@
+<nav class="navbar navbar-dark bg-dark" *ngIf="contact">
+    <div class="row">
+        <button class="back" (click)="onBack()">Back</button>
+        <img [src]="contact.imageUrl" class="contact-photo">
+        <div class="contact-name">{{contact.contactName}}</div>
+    </div>
+</nav>
+<div *ngIf="chats">
+    <div class="messages" *ngFor="let chat of chats">
+        <div [class]="chat.status">{{chat.message}}</div>
+    </div>
+</div>
+<div class="sender-box">
+    <input type="text" [(ngModel)]="currentMessage">
+    <button (click)="addChat()">Send</button>
+</div>

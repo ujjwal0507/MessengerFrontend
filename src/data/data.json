@@ -1,0 +1,50 @@
+[
+    {
+        "contactId": 1,
+        "contactName":"Ujjwal",
+        "contactStatus":"Hey there, using Whatsapp",
+        "imageUrl": "../assets/messenger-icon.jpeg"
+    },
+    {
+        "contactId": 2,
+        "contactName":"Avina",
+        "contactStatus":"Hey there, using Whatsapp",
+        "imageUrl": "../assets/messenger-icon.jpeg"
+    },
+    {
+        "contactId": 3,
+        "contactName":"Ross",
+        "contactStatus":"Hey there, using Whatsapp",
+        "imageUrl": "../assets/messenger-icon.jpeg"
+    },
+    {
+        "contactId": 4,
+        "contactName":"Rachel",
+        "contactStatus":"Hey there, using Whatsapp",
+        "imageUrl": "../assets/messenger-icon.jpeg"
+    },
+    {
+        "contactId":5,
+        "contactName":"Monica",
+        "contactStatus":"Hey there, using Whatsapp",
+        "imageUrl": "../assets/messenger-icon.jpeg"
+    },
+    {
+        "contactId":6,
+        "contactName":"Chandler",
+        "contactStatus":"Hey there, using Whatsapp",
+        "imageUrl": "../assets/messenger-icon.jpeg"
+    },
+    {
+        "contactId":7,
+        "contactName":"Joey",
+        "contactStatus":"Hey there, using Whatsapp",
+        "imageUrl": "../assets/messenger-icon.jpeg"
+    },
+    {
+        "contactId":8,
+        "contactName":"Phoebe",
+        "contactStatus":"Hey there, using Whatsapp",
+        "imageUrl": "../assets/messenger-icon.jpeg"
+    }
+]
